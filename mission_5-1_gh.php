@@ -167,6 +167,7 @@ $dsn = 'mysql:dbname=database';
 
 ?>
 <form action="" method="post">
+Let's post comment with your name!<br>
 <!-- name form  -->
 <input type="text" name="name" placeholder="Name" value="<?php echo $edit_name; ?>"><br>
 <!-- comment form  -->
@@ -177,12 +178,14 @@ $dsn = 'mysql:dbname=database';
 <input type="hidden" name="edit_do" value="<?php echo $edit_num;?>">
 <!-- posting button  -->
 <input type="submit" name="submit" value="submit"><br><br>
+Delete the comment<br>
 <!-- delete number form  -->
 <input type="number" name="num_delete" placeholder="No." value=""><br>
 <!-- deleting password  -->
 <input type="text" name="pass2" placeholder="password">
 <!-- delete implementation button -->
 <input type="submit" name="delete" value="delete"><br><br>
+Edit<br>
 <!-- edit number form  -->
 <input type="number" name="num_edit" placeholder="edit number"><br>
 <!-- edit password  -->
